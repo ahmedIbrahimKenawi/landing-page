@@ -56,7 +56,7 @@ const showNavBarAfterScrollEnd = (function(){
     }
     timer = setTimeout(()=>{
       document.querySelector('nav.navbar__menu').classList.remove('hide__nav');
-    }, 150);
+    }, 100);
   }
 })();
 
